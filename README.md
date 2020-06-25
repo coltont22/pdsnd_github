@@ -16,4 +16,4 @@ bikeshare.py
 
 
 ### Credits
-The data and some of the python code came from the Udacity Data Science using python course
+The data and some of the python code came from the Udacity Data Science using python course. The csv files are being used for the python project, but aren't in github.
