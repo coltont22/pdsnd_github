@@ -1,11 +1,11 @@
 ### Date created
-6/24/2020
+This was created on 6/24/2020
 
 ### Project Title
 Git project - Bikeshare posting
 
 ### Description
-My bikeshare project is being posted to Github
+My bikeshare python project is being posted to Github
 
 ### Files used
 chicago.read_csv
