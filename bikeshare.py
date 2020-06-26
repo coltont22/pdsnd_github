@@ -181,6 +181,8 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+# The below code is to output raw data 5 lines at a time as long as the user requests more data 
+
     print("Would you like to see the raw data?")
 
     data = 0
