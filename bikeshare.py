@@ -46,13 +46,7 @@ def get_filters():
             print("Please input one of the following days: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday")
         else:
             day_name += 1
-    """  check = 0
-       while check<1:
-        print("You selected the following: city: ",city," Month: ", month, " Day: ", day, ". Is this correct?(yes or no)")
-        test = input().lower()
-        if test = ('yes','no'):
-            check +=1
-    """
+
     print('-'*40)
     return city, month, day
 
