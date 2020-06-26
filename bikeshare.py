@@ -6,6 +6,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# This initial function collects user inputs for calculations that happen in the other functions
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -46,13 +48,7 @@ def get_filters():
             print("Please input one of the following days: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday")
         else:
             day_name += 1
-    """  check = 0
-       while check<1:
-        print("You selected the following: city: ",city," Month: ", month, " Day: ", day, ". Is this correct?(yes or no)")
-        test = input().lower()
-        if test = ('yes','no'):
-            check +=1
-    """
+
     print('-'*40)
     return city, month, day
 
@@ -184,6 +180,8 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+# The below code is to output raw data 5 lines at a time as long as the user requests more data 
 
     print("Would you like to see the raw data?")
 
